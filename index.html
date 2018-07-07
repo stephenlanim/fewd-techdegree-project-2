@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-First Responsive Layout</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="flex-nav">
+      <div class="name-nav">Stephen Anim</div>
+      <ul class="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="flex-header" id="pagetop">
+      <span class="profile-img"><img src="images/responsive-layout-profile.png" alt="Profile image."></span>
+      <p>Hi! I&rsquo;m a front-end developer who loves responsive design and CSS. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+    </header>
+
+    <!-- Main Content Area: Portfolio -->
+    <main>
+      <div class="container">
+        <h1 id="portfolio">Portfolio</h1>
+
+        <!-- Portfolio Flexbox -->
+        <div class="flex-portfolio">
+
+          <!-- Project -->
+          <div class="project">
+            <img class="project-img" src="images/portfolio-1.png" alt="Screenshot of project.">
+            <h2>Marketing Page</h2>
+            <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+          </div> <!-- End of Project -->
+
+          <!-- Project -->
+          <div class="project">
+            <img class="project-img" src="images/portfolio-2.png" alt="Screenshot of project.">
+            <h2>Search Page</h2>
+            <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+          </div> <!-- End of Project -->
+
+          <!-- Project -->
+          <div class="project">
+            <img class="project-img" src="images/portfolio-3.png" alt="Screenshot of project.">
+            <h2>Travel App</h2>
+            <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+          </div> <!-- End of Project -->
+
+          <!-- Project -->
+          <div class="project">
+            <img class="project-img" src="images/portfolio-4.png" alt="Screenshot of project.">
+            <h2>Map of Favorite Spots</h2>
+            <p>This project uses mapping APIs to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+          </div> <!-- End of Project -->
+
+          <!-- Project -->
+          <div class="project">
+            <img class="project-img" src="images/portfolio-5.png" alt="Screenshot of project.">
+            <h2>Photo Gallery</h2>
+            <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+          </div> <!-- End of Project -->
+
+          <!-- Project -->
+          <div class="project">
+            <img class="project-img" src="images/portfolio-6.png" alt="Screenshot of project.">
+            <h2>Calculator</h2>
+            <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+          </div> <!-- End of Project -->
+
+        </div> <!-- End of Portfolio Flexbox -->
+
+      </div> <!-- End of .container -->
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <!-- Footer Top Section -->
+      <div class="footer-top">
+        <h1 id="contact">Contact</h1>
+        <p>If you&rsquo;re interested in chatting or want more information about what I&rsquo;ve been working on, I&rsquo;d love to hear from you!</p>
+        <address>
+          <ul>
+            <li>Phone: <a href="tel:+11115551234">+1 (111) 555-1234</a></li>
+            <li>Email: <a href="mailto:stephen.lloyd.anim@gmail.com">stephen.lloyd.anim@gmail.com</a></li>
+          </ul>
+        </address>
+      </div> <!-- End of .footer-top -->
+
+      <!-- Footer Bottom Section -->
+      <div class="footer-bottom">
+
+        <!-- Mobile Screen Footer -->
+        <div class="mobile-footer">
+          <span class="name-footer">Stephen Anim</span>
+          <span class="anchor-return"><a href="#pagetop">Back to Top</a></span>
+        </div>
+
+        <!-- Tablet and Desktop Footer -->
+        <div class="tblt-dsk-footer">
+          <div class="name-footer">Stephen Anim</div>
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div> <!-- End of .footer-bottom -->
+
+    </footer>
+
+  </body>
+</html>

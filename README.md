@@ -7,3 +7,5 @@ Layout: A flexbox approach was used instead of floats due to Guil Hernandez's st
 Mobile-First Approach: The main CSS styles are for mobile view. The first media query begins at 768px for tablet width and wider, and the second adds modifications at 1024px for desktop screens and wider.
 
 This page was tested in Chrome for Mac, Firefox for Mac, and Apple Safari.
+
+Live page: https://stephenlanim.github.io/fewd-techdegree-project-2/
